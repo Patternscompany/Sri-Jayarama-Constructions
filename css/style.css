@@ -45,8 +45,8 @@
 }
 
 .btn-lg-square {
-    width: 56px;
-    height: 56px;
+    width: 50px;
+    height: 50px;
 }
 
 .btn-xl-square {
@@ -104,7 +104,7 @@
     position: relative;
     padding: 10px;
     font-weight: 400;
-    font-family: "Playfair Display", serif;
+   font-family: "Roboto", sans-serif!important;
     font-size: 17px;
     transition: .5s;
     z-index: 99;
@@ -652,7 +652,7 @@
 }
 .whatsapp {
   position: fixed;
-  right: 12px;
+  right: 30px;
   bottom: 6rem;
   cursor: pointer;
   display: grid;
@@ -660,8 +660,8 @@
   border-radius: 50%;
   z-index: 10000;
   opacity: 1;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   background:green;
 }
 
@@ -680,3 +680,76 @@
 .whatsapp a i {
   font-size: 2rem;
 }
+.full-section {
+        width: 100%;
+        height: 100vh; /* Full screen height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f5f5f5; /* Optional */
+        overflow: hidden;
+    }
+
+    .full-section img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain; /* Keeps image fully visible */
+    }
+
+   
+.google-review-section {
+    padding: 60px 20px;
+
+       background: linear-gradient(rgba(142, 161, 218, 0.9), rgb(57, 58, 64)), url(../img/testimonials-v2-shape1.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.google-logo {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.stars {
+    font-size: 30px;
+    color: gold;
+    margin-bottom: 25px;
+}
+
+.review {
+    font-size: 20px;
+   font-family: "Roboto", sans-serif!important;
+    max-width: 900px;
+    margin: 0 auto 20px;
+    color: #555;
+}
+
+.client-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 3px solid #ddd;
+    object-fit: cover;
+}
+
+.client-name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.client-location {
+    font-size: 18px;
+    color: #ff5e15;
+}
+
+/* Swiper Fixes */
+.swiper {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
