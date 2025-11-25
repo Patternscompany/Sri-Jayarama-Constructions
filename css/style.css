@@ -406,7 +406,7 @@
 }
 
 .about .about-item-image::before {
-    width: 80%;
+    /* width: 80%;
     height: 80%;
     content: "";
     position: absolute;
@@ -417,7 +417,7 @@
     border-style: dotted;
     border-color: var(--bs-white);
     background: var(--bs-primary);
-    z-index: 2;
+    z-index: 2; */
 }
 
 .about .about-item-image .about-item-image-content {
